@@ -33,7 +33,6 @@ function answer(x)
   return Math.fmod(x-2017.33333333333333333333333333333333, window);
 }
 function test() {
-   assert.s(answer[2018], );
    assert.strictEqual(answer[2019],0.66666667,new TypeError("Test 1 fail"));
    assert.strictEqual(answer[2020],1.6666667,new TypeError("Test 2 fail"));
    assert.strictEqual(answer[2028],2,new TypeError("Test 3 fail"));
