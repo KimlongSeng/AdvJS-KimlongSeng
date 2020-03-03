@@ -16,7 +16,6 @@ function MW()
     var ans = Math.fmod(years-2017.33333333333333333333333333333333, window);
      if (ans < 1)
      {
-      
         console.log('yes');
      }
     else {
