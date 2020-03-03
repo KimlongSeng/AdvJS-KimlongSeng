@@ -1,3 +1,5 @@
+
+const assert = require('assert').strict;
 function JC()
 {
     const readline = require('readline').createInterface({
@@ -30,15 +32,30 @@ function JC()
      }
   );
 }
+function answer(x)
+{
+  for (var i=0;i<256;i++)
+        {
+            var trial = i ^ (i<<1);
+            if (x == trial % 256)
+            {
+                console.log(i);
+                break;
+            }
+        }
+    }
 function test() {
-    assert.strictEqual(answer[99,28,11],33,244,249);
-    assert.strictEqual(answer[55,44,22],237 ,228 ,242);
-    assert.strictEqual(answer[58,59,205,20,198], 22,55,187,12,66);
+    assert.strictEqual(answer[55],237,new TypeError("Test 1 fail"));
+    assert.strictEqual(answer[66],62,new TypeError("Test 2 fail"));
+    assert.strictEqual(answer[99],33,new TypeError("Test 3 fail"));
     console.log('all test cases passed!');
   }
 
   if (require.main == module) {
-    if (process.argv.length > 2 && process.argv[2] === 'test') test();
+    if (process.argv[2] == 'test')
+    { 
+      test();
+    }
     else JC();
   }
  

@@ -1,4 +1,5 @@
 const assert = require('assert').strict;
+const readline = require('readline');
 function LR()
 {
     const readline = require('readline').createInterface({
@@ -21,18 +22,28 @@ function LR()
   );
 }
 
-function test()
+function answer(x,y)
 {
-  assert.strictEqual(answer[31,6],4);
-  assert.strictEqual(answer[99,9],1);
-  assert.strictEqual(answer[10000000000 ,17], 3);
+  var ans = 1;
+       while(x % y != 0)
+       {
+           y -= x % y;
+           ans++;
+       }
+       return ans;
+}
+function test()
+{ assert.strictEqual(answer(31,6),4,new TypeError("Test 1 fail"));
+  assert.strictEqual(answer[99,9],1,new TypeError("Test 2 fail"));
+ assert.strictEqual(answer[10000000000 ,17], 3,new TypeError("Test 3 fail"));
   console.log('all test cases passed!');
 }
 
 if (require.main == module)
 {
-   if (process.argv.length > 2 && process.argv[2] === 'test')
-    test();
+ 
+ if (process.argv[2] == 'test') 
+ test();
   else
     LR();
 }
