@@ -8,7 +8,7 @@
 
 ## [Project 1](https://github.com/KimlongSeng/AdvJS-KimlongSeng/tree/master/HW1):
 - Complete
-- [Exactly Electrical](https://github.com/KimlongSeng/AdvJS-KimlongSeng/blob/master/HW1/Loo_Rolls.js)	  difficulty level : 2.0
+- [Exactly Electrical](https://github.com/KimlongSeng/AdvJS-KimlongSeng/blob/master/HW1/Exactly_Electrical.js)	  difficulty level : 2.0
 ![1](https://github.com/KimlongSeng/AdvJS-KimlongSeng/blob/master/HW1/3.PNG)
 - [Loo Rolls](https://github.com/KimlongSeng/AdvJS-KimlongSeng/blob/master/HW1/Loo_Rolls.js)		  difficulty level : 2.0
 ![2](https://github.com/KimlongSeng/AdvJS-KimlongSeng/blob/master/HW1/2.PNG)
