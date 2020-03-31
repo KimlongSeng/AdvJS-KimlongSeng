@@ -19,4 +19,6 @@ Grade deserve : 90/100
 
 ## [Project2](https://github.com/KimlongSeng/AdvJS-KimlongSeng/tree/master/Project2):
 - This project is about a game call hangman
-- To run it just download the floder open the html file with any brower and click on start button to start playing
+- To run it 
+ -just download the folder 
+ -open the html file with any brower and click on start button to start playing
