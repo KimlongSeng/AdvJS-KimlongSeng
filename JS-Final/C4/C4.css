@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Time New roman';
+    text-align: center;
+    margin-top: 0.5rem;
+   
+}
+
+h1{
+    margin:auto;
+    font-size: 3rem;
+    border: 15px solid green;
+    position: relative;
+    width: 600px;
+    color: white;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+a{
+    position: absolute;
+    top:6rem;
+    font-size: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+
+
+body {
+    background-color:  rgb(64, 83, 85);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    height: 520px;
+    top: 9rem;
+    background: rgb(0, 4, 255);
+    border: 2px solid black;
+    padding: .5rem;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.container table tr td{
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.reset{
+    position: absolute;
+    top:40rem;
+    left: 100%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 40px;
+    text-align: middle;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: rgb(255, 61, 61);
+    cursor: pointer;
+    box-shadow: 6px 5px #888888;
+    transition: .5s;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold ;
+}
+.Back{
+    position: absolute;
+    top:40rem;
+    left: 0%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 40px;
+    text-align: middle;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: rgb(2, 204, 53);
+    cursor: pointer;
+    box-shadow: 6px 5px #888888;
+    transition: .5s;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold ;
+}
+
+.reset:hover{
+transition: 0.8s;
+box-shadow: 0px 0px #888888;
+}
+.Back:hover{
+    transition: 0.8s;
+    box-shadow: 0px 0px #888888;
+    }
+
+@media screen and (max-width: 600px){
+    .container{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        height: 520px;
+        top: 9rem;
+        border: 2px solid black;
+        padding: .5rem;
+    
+    }
+    
+}
